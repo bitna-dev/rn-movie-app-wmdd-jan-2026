@@ -8,7 +8,6 @@ A React Native mobile application for browsing movies and TV shows using The Mov
 - Browse TV shows by category (Popular, Airing Today, On The Air, Top Rated)
 - Search for movies, TV shows, or both with form validation
 - View detailed information for each movie/TV show
-- Infinite scroll pagination for seamless browsing
 - Category switching with dropdown selection
 
 ## 🛠 Tech Stack
@@ -108,13 +107,10 @@ src/
 - ✅ Search with form validation
 - ✅ Search prompt message
 - ✅ Detail page with separate API call
-- ✅ Infinite scroll pagination
 - ✅ Component reusability
-- ✅ No wrapper libraries (uses native fetch)
 
 ## 📝 Notes
 
-- API calls use native `fetch` function (no wrapper libraries)
 - Detail pages fetch data separately using only the media ID
 - Form validation prevents empty searches
 - Implements React best practices and component reusability
